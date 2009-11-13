@@ -38,6 +38,7 @@ unsetopt SHARE_HISTORY # share history between sessions ???
 
 zle -N newtab
 
+bindkey '' history-incremental-search-backward
 bindkey '^[^[[D' backward-word
 bindkey '^[^[[C' forward-word
 bindkey '^[[5D' beginning-of-line
